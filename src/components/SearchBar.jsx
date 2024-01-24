@@ -4,14 +4,16 @@ import SearchIcon from "@mui/icons-material/Search";
 
 const MinimalistSearchBar = () => {
   return (
-    <div style={{ position: "relative", width: 200 }}>
+    <div style={{ position: "relative", width: 300 }}>
       <input
         placeholder="search a song of your choice"
         style={{
           fontFamily: "Poppins",
           borderRadius: "4px",
           backgroundColor: "#f5f5f5",
-          padding: "8px",
+          paddingLeft: "15px",
+          paddingTop: "10px",
+          paddingBottom: "10px",
           width: "100%",
         }}
       />
@@ -19,7 +21,7 @@ const MinimalistSearchBar = () => {
         style={{
           position: "absolute",
           top: "50%",
-          right: "8px",
+          right: "-10px",
           transform: "translateY(-50%)",
           pointerEvents: "none",
         }}

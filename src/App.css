@@ -16,3 +16,25 @@
   background-color: black;
 }
 
+.albums {
+  background-color: black;
+  color: white;
+}
+
+.cards {
+  border-radius: 20%;
+}
+
+.album-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2%;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.album-bar button {
+  color:#34C94B;
+  background-color: black;
+}

@@ -4,6 +4,7 @@ import MinimalistSearchBar from "./SearchBar";
 import Logo from "./Logo";
 import CustomButton from "./CustomButton";
 import { Grid } from "@mui/material";
+import CardMusic from "./CardMusic";
 
 const Navbar = () => {
   return (
