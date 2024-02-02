@@ -38,14 +38,7 @@ const Song = () => {
         <Typography>Songs</Typography>
       </div>
       <div className="albums album-bar">
-        <Tabs
-          value="all"
-          onChange={handleChange}
-          // sx={{
-          //   backgroundColor: "black",
-          //   color: "white",
-          // }}
-        >
+        <Tabs value="all" onChange={handleChange}>
           {genre.data &&
             genre.data.map((item, index) =>
               index === 0 ? (
@@ -64,17 +57,7 @@ const Song = () => {
       </div>
       <Grid container spacing={2} className="albums">
         {filterSong.map((cardItem, index) => (
-          <Grid
-            item
-            key={cardItem.id}
-            xs={6}
-            sm={4}
-            md={3}
-            lg={2}
-            // style={{
-            //   display: isCardCollapsed && index > 5 ? "none" : "block",
-            // }}
-          >
+          <Grid item key={cardItem.id} xs={6} sm={4} md={3} lg={2}>
             <CardMusic card={cardItem} className="cards" />
           </Grid>
         ))}
