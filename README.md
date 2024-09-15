@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Description
+QTify is a song-browsing application built from scratch using ReactJS paired with Material UI and Swiper to deliver a seamless and aesthetic user interface, offering songs from different albums and genres for music lovers.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Features / Implementations
+- Conducted a thorough analysis of the provided Figma design, successfully identifying and documenting required front-end components.
+- Created modular UI components including Cards, Carousels, and Buttons optimizing for reusability across various sections of the application.
+- Implemented an intuitive genre-based song filtering system using a tab component by modifying the one provided by MaterialUI, allowing users to browse songs by their preferred genre effortlessly.
+- Utilized REST APIs to fetch data served by the backend server
+- Deployed the website to Vercel
 
-In the project directory, you can run:
+<img width="523" alt="image" src="https://github.com/user-attachments/assets/d07d6096-b22b-4402-b2c2-32379ddb0ee4">
 
-### `npm start`
+## Component breakdown and building the Navbar and Hero Section
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Scope of work
+- Conducted a thorough analysis of the provided Figma design, successfully identifying and documenting required front-end components
+- Designed a reusable button component with unique styling, adaptable for various functionalities across the application.
+- Developed a responsive navigation bar featuring a custom logo, a search component with custom styling, and a feedback button.
+- Created an eye-catching hero section with promotional content, effectively capturing user interest.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Skills used: 
 
-### `npm test`
+-ReactJS
+- Module-scoped CSS
+- Flexbox
+- CSS variables
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="538" alt="image" src="https://github.com/user-attachments/assets/2e8b20b4-2372-4c5a-934e-461ab5300048">
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Songs Section
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Scope of work
+- Created a reusable Filters component, using Material-UI Tabs for a seamless and interactive filtering experience
+- Utilized Axios to fetch the genre options and song data served by the backend, and performed error handling for the same.
+- Implemented conditional rendering logic to display filter options within the Section component exclusively in the Songs section.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Skills used
+- ReactJS
+- Module-scoped CSS
+- API Integration and Data Handling
+- Condition Rendering
+- Component Reusability, Customizing Third-Party Components
 
-### `npm run eject`
+<img width="523" alt="image" src="https://github.com/user-attachments/assets/521135f3-6bbe-4f54-9bbc-348a1937b0c9">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Deploy the QTify website
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Scope of Work
+- Deployed the Qtify React app to Vercel by importing the project repository from GitHub.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Skills used
+- Deployment using Vercel
